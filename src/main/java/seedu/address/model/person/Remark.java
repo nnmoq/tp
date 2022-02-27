@@ -10,6 +10,10 @@ public class Remark {
 
     public final String value;
 
+    /**
+     * Constructs a Remark.
+     * @param remark the remark of the person.
+     */
     public Remark(String remark) {
         requireNonNull(remark);
         value = remark;
